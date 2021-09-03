@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400&display=swap');
+
+/*Ссылка на шрифт*/
+
+body html {
+    /*Стиль для тела*/
+    width: 100%;
+    /*Ширина*/
+    height: 100%;
+    /*Высота*/
+    font-family: 'Roboto', sans-serif;
+    /*Шрифты (Первым указываем шрифт, который хотели бы использовать. Затем следуют любые шрифты, которые  могли бы использовать, если первый указанный шрифт не доступен А заканчивать список мы должны типовым шрифтом, который имеет 5 видов: serif, sans-serif, monospace, cursive и fantasy..)*/
+    color: black;
+    /*Цвет текста*/
+}
+
+.navbar-brand img {
+    width: 250px
+}
+
+.navbar-nav li {
+    padding-right: 20px
+}
+
+.carousel-caption {
+    text-shadow: 1px 1px 10px #000;
+}
+
+
+
+
+.jumbotron {
+    padding: 1em;
+}
+
+.fa-window-close {
+    color: crimson
+}
+
+.fa-eercast {
+    color: darkviolet
+}
+
+.fa-superpowers {
+    color: blue
+}
+
+.fa-superpowers:hover,
+.fa-eercast:hover,
+.fa-window-close:hover {
+    color: #FFFF00
+}
+
+footer {background-color:#708090;
+color:white;
+padding-top: 20px}
+
+.btnBlok {              /*для кнопок*/
+   
+    margin-left: 15px;
+    
+    
+}
+
+.giffki img {         /*для гифки*/
+    max-width: 100%;
+    max-height: 200px;
+    margin-bottom: 20px;
+}
+
+#ModalBtn{ /*Кнопка модального окна*/
+   
+   margin-top: 15px;
+    
+     
+   
+}
